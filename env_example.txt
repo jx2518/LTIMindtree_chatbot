@@ -1,0 +1,47 @@
+# Worldwide Express Shipment Tracking Chatbot Configuration
+# Copy this file to .env and fill in your actual values
+
+# OpenAI Configuration (Required for AI functionality)
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_MODEL=gpt-4
+
+# Database Configuration
+DATABASE_URL=sqlite:///./shipment_tracking.db
+
+# Email Configuration (Required for carrier communication)
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+EMAIL_USERNAME=your_email@company.com
+EMAIL_PASSWORD=your_app_password_here
+FROM_EMAIL=chatbot@worldwideexpress.com
+
+# Carrier API Configuration (Optional - using mock data if not provided)
+FEDEX_API_KEY=your_fedex_api_key
+FEDEX_SECRET_KEY=your_fedex_secret_key
+UPS_API_KEY=your_ups_api_key
+UPS_SECRET_KEY=your_ups_secret_key
+PROJECT44_API_KEY=your_project44_api_key
+
+# Application Settings
+DEBUG=true
+LOG_LEVEL=INFO
+ENVIRONMENT=development
+
+# UI Configuration
+STREAMLIT_THEME=light
+API_HOST=0.0.0.0
+API_PORT=8000
+
+# Memory and Storage Settings
+ENABLE_MEMORY_PERSISTENCE=true
+MEMORY_RETENTION_DAYS=90
+MAX_CONVERSATION_HISTORY=50
+
+# Rate Limiting
+MAX_REQUESTS_PER_MINUTE=60
+MAX_CONCURRENT_CONVERSATIONS=100
+
+# Notification Settings
+ENABLE_EMAIL_NOTIFICATIONS=true
+ENABLE_WEBHOOK_NOTIFICATIONS=false
+WEBHOOK_URL=https://your-webhook-endpoint.com/notifications 

@@ -1,0 +1,44 @@
+# LangGraph and LangChain core
+langgraph>=0.2.0
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+
+# Memory and storage
+langmem>=0.1.0
+
+# Web framework for API
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Database and storage
+sqlite-utils>=3.35.0
+pydantic>=2.5.0
+
+# HTTP requests for carrier APIs
+httpx>=0.25.0
+requests>=2.31.0
+
+# Email functionality
+smtplib2>=0.2.0
+email-validator>=2.1.0
+reportlab>=4.0.0
+
+# Data processing
+pandas>=2.1.0
+python-dateutil>=2.8.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# UI (optional - for demo)
+streamlit>=1.28.0
+
+# Utilities
+uuid>=1.30
+datetime>=5.3 
